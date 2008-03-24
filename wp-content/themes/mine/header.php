@@ -20,7 +20,7 @@
 
 <?php wp_head(); ?>
 </head>
-<body>
+<body class="content">
 <div class="headline"><a href="/">prepor.ru</a> | <a href="<?=get_category_link(get_cat_ID('lytdybr'))?>">/lytdybr</a> | <a href="<?=get_category_link(get_cat_ID('tech'))?>">/tech</a> | <a href="<?=get_category_link(get_cat_ID('photos'))?>">/photos</a></div>
 <table width="100%" border="0" cellspacing="0" cellpadding="0" style="padding-top: 40px">
   <tr>

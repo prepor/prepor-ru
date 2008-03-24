@@ -50,7 +50,7 @@ if ( !$withcomments && !is_single() ) {
 
 <?php wp_head(); ?>
 </head>
-<body>
+<body class="content">
 	<table width="100%" border="0" cellspacing="0" cellpadding="0">
 	  <tr>
 	    <td><h1 align="center" class="style1">prepor.ru <a href="<?=get_bloginfo('rss2_url')?>" title="RSS для всего сайта"><img src="<?=get_template_directory_uri()?>/images/feed-icon-28x28.png" width="28" height="28" /></a></h1></td>
