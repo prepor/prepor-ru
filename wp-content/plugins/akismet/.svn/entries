@@ -1,0 +1,54 @@
+8
+
+dir
+36006
+http://svn.wp-plugins.org/akismet/trunk
+http://svn.wp-plugins.org
+
+
+
+2008-03-21T20:42:31.613947Z
+35750
+ryan
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+b8457f37-d9ea-0310-8a92-e5e31aec5664
+
+akismet.gif
+file
+
+
+
+
+2008-03-24T11:19:42.000000Z
+67a9581cbfcbeae70439582269022c45
+2006-08-23T20:13:08.120040Z
+6321
+ryan
+has-props
+
+akismet.php
+file
+
+
+
+
+2008-03-24T11:19:42.000000Z
+932a5a8902549822f35af160c7d51815
+2008-03-21T20:42:31.613947Z
+35750
+ryan
+has-props
+

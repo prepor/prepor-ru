@@ -1,0 +1,41 @@
+8
+
+dir
+7498
+http://svn.automattic.com/wordpress/trunk/wp-includes/js/tinymce/langs
+http://svn.automattic.com/wordpress
+
+
+
+2008-03-18T16:32:05.376427Z
+7380
+ryan
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+1a063a9b-81f0-0310-95a4-ce76da25c4cd
+
+wp-langs.php
+file
+
+
+
+
+2008-03-24T11:19:37.000000Z
+2a6df140ccff95842db1f75729726d30
+2008-03-18T16:32:05.376427Z
+7380
+ryan
+has-props
+

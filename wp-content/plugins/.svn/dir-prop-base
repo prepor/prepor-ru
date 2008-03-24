@@ -1,0 +1,6 @@
+K 13
+svn:externals
+V 49
+akismet http://svn.wp-plugins.org/akismet/trunk/
+
+END

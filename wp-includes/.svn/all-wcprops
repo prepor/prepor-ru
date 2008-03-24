@@ -1,0 +1,371 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/wordpress/!svn/ver/7497/trunk/wp-includes
+END
+feed-rss2.php
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/wordpress/!svn/ver/7244/trunk/wp-includes/feed-rss2.php
+END
+default-filters.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/wordpress/!svn/ver/7491/trunk/wp-includes/default-filters.php
+END
+class-snoopy.php
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/wordpress/!svn/ver/6440/trunk/wp-includes/class-snoopy.php
+END
+plugin.php
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/wordpress/!svn/ver/6726/trunk/wp-includes/plugin.php
+END
+post-template.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/wordpress/!svn/ver/7492/trunk/wp-includes/post-template.php
+END
+locale.php
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/wordpress/!svn/ver/6589/trunk/wp-includes/locale.php
+END
+feed-atom.php
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/wordpress/!svn/ver/7244/trunk/wp-includes/feed-atom.php
+END
+class-phpass.php
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/wordpress/!svn/ver/7421/trunk/wp-includes/class-phpass.php
+END
+cache.php
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/wordpress/!svn/ver/6711/trunk/wp-includes/cache.php
+END
+bookmark.php
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/wordpress/!svn/ver/7193/trunk/wp-includes/bookmark.php
+END
+query.php
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/wordpress/!svn/ver/7491/trunk/wp-includes/query.php
+END
+link-template.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/wordpress/!svn/ver/7437/trunk/wp-includes/link-template.php
+END
+wlwmanifest.xml
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/wordpress/!svn/ver/6202/trunk/wp-includes/wlwmanifest.xml
+END
+wp-db.php
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/wordpress/!svn/ver/7431/trunk/wp-includes/wp-db.php
+END
+formatting.php
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/wordpress/!svn/ver/7497/trunk/wp-includes/formatting.php
+END
+author-template.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/wordpress/!svn/ver/7104/trunk/wp-includes/author-template.php
+END
+category.php
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/wordpress/!svn/ver/6655/trunk/wp-includes/category.php
+END
+feed-rss2-comments.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/wordpress/!svn/ver/7244/trunk/wp-includes/feed-rss2-comments.php
+END
+taxonomy.php
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/wordpress/!svn/ver/7491/trunk/wp-includes/taxonomy.php
+END
+template-loader.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/wordpress/!svn/ver/7491/trunk/wp-includes/template-loader.php
+END
+rewrite.php
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/wordpress/!svn/ver/7493/trunk/wp-includes/rewrite.php
+END
+update.php
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/wordpress/!svn/ver/7237/trunk/wp-includes/update.php
+END
+compat.php
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/wordpress/!svn/ver/7140/trunk/wp-includes/compat.php
+END
+gettext.php
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/wordpress/!svn/ver/6554/trunk/wp-includes/gettext.php
+END
+class-pop3.php
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/wordpress/!svn/ver/6440/trunk/wp-includes/class-pop3.php
+END
+class-phpmailer.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/wordpress/!svn/ver/7451/trunk/wp-includes/class-phpmailer.php
+END
+version.php
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/wordpress/!svn/ver/7408/trunk/wp-includes/version.php
+END
+post.php
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/wordpress/!svn/ver/7482/trunk/wp-includes/post.php
+END
+general-template.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/wordpress/!svn/ver/7477/trunk/wp-includes/general-template.php
+END
+canonical.php
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/wordpress/!svn/ver/6998/trunk/wp-includes/canonical.php
+END
+atomlib.php
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/wordpress/!svn/ver/6440/trunk/wp-includes/atomlib.php
+END
+capabilities.php
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/wordpress/!svn/ver/6697/trunk/wp-includes/capabilities.php
+END
+classes.php
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/wordpress/!svn/ver/7491/trunk/wp-includes/classes.php
+END
+deprecated.php
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/wordpress/!svn/ver/7130/trunk/wp-includes/deprecated.php
+END
+cron.php
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/wordpress/!svn/ver/5972/trunk/wp-includes/cron.php
+END
+comment.php
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/wordpress/!svn/ver/7425/trunk/wp-includes/comment.php
+END
+pluggable.php
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/wordpress/!svn/ver/7461/trunk/wp-includes/pluggable.php
+END
+theme.php
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/wordpress/!svn/ver/7491/trunk/wp-includes/theme.php
+END
+feed.php
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/wordpress/!svn/ver/7244/trunk/wp-includes/feed.php
+END
+class-IXR.php
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/wordpress/!svn/ver/6440/trunk/wp-includes/class-IXR.php
+END
+kses.php
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/wordpress/!svn/ver/7370/trunk/wp-includes/kses.php
+END
+widgets.php
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/wordpress/!svn/ver/7411/trunk/wp-includes/widgets.php
+END
+rss.php
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/wordpress/!svn/ver/6585/trunk/wp-includes/rss.php
+END
+functions.php
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/wordpress/!svn/ver/7478/trunk/wp-includes/functions.php
+END
+feed-rss.php
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/wordpress/!svn/ver/6493/trunk/wp-includes/feed-rss.php
+END
+script-loader.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/wordpress/!svn/ver/7489/trunk/wp-includes/script-loader.php
+END
+l10n.php
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/wordpress/!svn/ver/7397/trunk/wp-includes/l10n.php
+END
+registration.php
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/wordpress/!svn/ver/7313/trunk/wp-includes/registration.php
+END
+comment-template.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/wordpress/!svn/ver/6802/trunk/wp-includes/comment-template.php
+END
+vars.php
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/wordpress/!svn/ver/6554/trunk/wp-includes/vars.php
+END
+feed-rdf.php
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/wordpress/!svn/ver/6493/trunk/wp-includes/feed-rdf.php
+END
+rss-functions.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/wordpress/!svn/ver/6554/trunk/wp-includes/rss-functions.php
+END
+shortcodes.php
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/wordpress/!svn/ver/7496/trunk/wp-includes/shortcodes.php
+END
+bookmark-template.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/wordpress/!svn/ver/6828/trunk/wp-includes/bookmark-template.php
+END
+streams.php
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/wordpress/!svn/ver/6726/trunk/wp-includes/streams.php
+END
+user.php
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/wordpress/!svn/ver/7268/trunk/wp-includes/user.php
+END
+media.php
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/wordpress/!svn/ver/7496/trunk/wp-includes/media.php
+END
+registration-functions.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/wordpress/!svn/ver/6554/trunk/wp-includes/registration-functions.php
+END
+feed-atom-comments.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/wordpress/!svn/ver/6819/trunk/wp-includes/feed-atom-comments.php
+END
+category-template.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/wordpress/!svn/ver/7472/trunk/wp-includes/category-template.php
+END
+class-smtp.php
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/wordpress/!svn/ver/5700/trunk/wp-includes/class-smtp.php
+END

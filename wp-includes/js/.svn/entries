@@ -1,0 +1,150 @@
+8
+
+dir
+7498
+http://svn.automattic.com/wordpress/trunk/wp-includes/js
+http://svn.automattic.com/wordpress
+
+
+
+2008-03-23T16:37:06.227367Z
+7489
+ryan
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+1a063a9b-81f0-0310-95a4-ce76da25c4cd
+
+jquery
+dir
+
+scriptaculous
+dir
+
+prototype.js
+file
+
+
+
+
+2008-03-24T11:19:38.000000Z
+bab4179aef164e96e866b03ac432bdf7
+2007-12-28T19:17:21.610642Z
+6512
+ryan
+has-props
+
+autosave.js
+file
+
+
+
+
+2008-03-24T11:19:38.000000Z
+d275157ac090ce476b4914505f8de24f
+2008-03-22T22:19:25.395308Z
+7480
+westi
+has-props
+
+wp-ajax.js
+file
+
+
+
+
+2008-03-24T11:19:38.000000Z
+c65fa296a21bab7aaac66f145ac45155
+2007-05-21T12:56:39.522263Z
+5498
+rob1n
+has-props
+
+crop
+dir
+
+swfupload
+dir
+
+tw-sack.js
+file
+
+
+
+
+2008-03-24T11:19:38.000000Z
+b989a5bd84f6ebcbc1393ec003e6e991
+2006-04-05T20:58:57.921996Z
+3695
+ryan
+has-props
+
+quicktags.js
+file
+
+
+
+
+2008-03-24T11:19:38.000000Z
+30ef4fe9bbc2a3259b0a1179f8b3f5d8
+2008-03-02T20:17:30.512222Z
+7130
+ryan
+has-props
+
+colorpicker.js
+file
+
+
+
+
+2008-03-24T11:19:38.000000Z
+a513cd35728deb3db7dcb9b75da0a62d
+2008-02-29T17:09:44.638540Z
+7104
+ryan
+has-props
+
+tinymce
+dir
+
+thickbox
+dir
+
+wp-lists.js
+file
+
+
+
+
+2008-03-24T11:19:38.000000Z
+3f3d922461418335261f26c4f97931c1
+2008-03-22T08:15:48.111434Z
+7468
+ryan
+has-props
+
+wp-ajax-response.js
+file
+
+
+
+
+2008-03-24T11:19:38.000000Z
+e4e96312e1bb476fc634ae4fcebde13b
+2008-03-21T03:03:38.408158Z
+7436
+ryan
+has-props
+

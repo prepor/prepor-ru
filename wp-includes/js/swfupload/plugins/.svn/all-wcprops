@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/wordpress/!svn/ver/7406/trunk/wp-includes/js/swfupload/plugins
+END
+swfupload.documentready.js
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/wordpress/!svn/ver/6659/trunk/wp-includes/js/swfupload/plugins/swfupload.documentready.js
+END
+swfupload.queue.js
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/wordpress/!svn/ver/6659/trunk/wp-includes/js/swfupload/plugins/swfupload.queue.js
+END
+swfupload.graceful_degradation.js
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/wordpress/!svn/ver/7406/trunk/wp-includes/js/swfupload/plugins/swfupload.graceful_degradation.js
+END
+swfupload.cookies.js
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/wordpress/!svn/ver/6659/trunk/wp-includes/js/swfupload/plugins/swfupload.cookies.js
+END

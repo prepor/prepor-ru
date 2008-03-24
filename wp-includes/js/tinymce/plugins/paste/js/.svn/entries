@@ -1,0 +1,54 @@
+8
+
+dir
+7498
+http://svn.automattic.com/wordpress/trunk/wp-includes/js/tinymce/plugins/paste/js
+http://svn.automattic.com/wordpress
+
+
+
+2008-02-27T05:36:42.442517Z
+7060
+ryan
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+1a063a9b-81f0-0310-95a4-ce76da25c4cd
+
+pasteword.js
+file
+
+
+
+
+2008-03-24T11:19:37.000000Z
+7f69babced989fb799e0f7a617441c71
+2008-02-27T05:36:42.442517Z
+7060
+ryan
+has-props
+
+pastetext.js
+file
+
+
+
+
+2008-03-24T11:19:37.000000Z
+05482c276313c900e2a2b55508712b13
+2008-01-17T15:44:05.937376Z
+6632
+ryan
+has-props
+

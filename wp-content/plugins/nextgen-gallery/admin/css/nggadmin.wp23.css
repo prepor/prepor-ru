@@ -1,0 +1,129 @@
+/* SETTINGS FOR Overview Gallery */
+
+div .ngg-wrap {
+	overflow:hidden;
+}
+
+/* SETTINGS FOR PROGRESS BAR */
+
+div .progressborder {
+	border: 1px inset ; 
+	display: block; 
+	height: 20px; 
+	background-color: rgb(160, 160, 160); 
+	width: 100%;
+	margin-top:5px;
+}
+
+div .progressbar {
+	border: medium none ; 
+	display: block; 
+	height: 20px; 
+	background-color: rgb(13, 50, 79); 
+	width: 0%;
+}
+
+div .progressbar span {
+	display: inline; 
+	position: relative; 
+	color: white; 
+	font-weight: bold; 
+	padding-bottom: 2px; 
+	padding-left: 5px;
+}
+
+ /* SETTINGS FOR ALBUM PAGE */
+ 
+.album {
+	overflow: hidden;
+}
+
+.groupItem
+{
+	background-color:#FBFBFB;
+	border:1px solid #CCCCCC;
+	display:block;
+	line-height:75px;
+	cursor: move;
+	margin: 0 0 10px;
+	width: 390px;
+}
+
+.groupItem .item_top
+{
+	background-color:#669999;
+	color: white;
+	font-weight:bold;
+	line-height: 28px;
+	height: 28px;
+	border-bottom: 2px solid #003333;
+	cursor: move;
+	padding: 0 5px;
+	position: static;
+}
+
+.groupItem .item_top a
+{
+	float:right;
+	text-decoration: none;
+	color: white;
+	border-bottom: 2px solid #003333;
+}
+
+.innerhandle {
+	border-color:#F2F2F2 rgb(232, 232, 232) rgb(232, 232, 232) rgb(242, 242, 242);
+	border-style:solid;
+	border-width:1px;
+	display:block;
+}
+
+.itemContent {
+	padding: 5px;
+}
+
+.itemContent p {
+	border: 0;  
+	margin: 0;  
+	padding: 0;
+}
+
+.inlinepicture
+{
+	float:left;
+	display:inline;
+	margin:0pt;
+	padding:0pt 3px 1px;
+}
+
+.inlinepicture img
+{
+	max-height:75px;
+}
+
+.sort_placeholder
+{
+	border:1px dashed #bba !important;
+	background: #F9F9F9;
+}
+
+#galleryContainer {
+	background-color:#F0F8FF;
+	border:1px solid #BBBBBB;
+	margin:10px 440px 10px 10px;
+	padding:0px 10px 10px 10px;
+}
+
+#selectContainer {
+	float:right;
+	background:#F0F8FF none repeat scroll 0%;
+	border:1px solid #BBBBBB;
+	margin:0pt 10px 10px;
+	padding:0px 5px 5px 10px;
+	width:395px;
+}
+
+#galleryContainer h3, #selectContainer h3 {
+	color:#333333;
+	text-align:center;
+	line-height:25px;	
+}	

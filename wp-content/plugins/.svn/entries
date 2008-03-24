@@ -1,0 +1,41 @@
+8
+
+dir
+7498
+http://svn.automattic.com/wordpress/trunk/wp-content/plugins
+http://svn.automattic.com/wordpress
+
+
+
+2008-02-28T22:02:20.561906Z
+7097
+westi
+has-props
+
+svn:special svn:externals svn:needs-lock
+svn:externals
+
+
+
+
+
+
+
+
+
+
+1a063a9b-81f0-0310-95a4-ce76da25c4cd
+
+hello.php
+file
+
+
+
+
+2008-03-24T11:19:38.000000Z
+a3bbd49bf0bfb7588d174cbc9d14bac8
+2008-02-28T22:02:20.561906Z
+7097
+westi
+has-props
+

@@ -1,0 +1,83 @@
+/* Caution! Ensure accessibility in print and other media types... */
+@media projection, screen { /* Use class for showing/hiding tab content, so that visibility can be better controlled in different media types... */
+    .tabs-hide {
+        display: none;
+    }
+}
+
+/* Hide useless elements in print layouts... */
+@media print {
+    .tabs-nav {
+        display: none;
+    }
+}
+
+/* Skin */
+.tabs-nav {
+    list-style: none;
+    margin: 0;
+    padding: 0 0 0 4px;
+}
+.tabs-nav:after { /* clearing without presentational markup, IE gets extra treatment */
+    display: block;
+    clear: both;
+    content: " ";
+}
+
+.tabs-nav li {
+    float: left;
+    margin: 0px 2px 0px 1px !important;
+	background: #EEEEEE none repeat scroll 0%;
+	border-color: #CCCCCC;
+	border-style: solid solid none;
+	border-width: 1px 1px medium;
+	padding: 0px 1px;
+	text-decoration: none;
+}
+
+.tabs-nav a {
+	border: none;
+    display: block;
+    position: relative;
+    top: 1px;
+    z-index: 2;
+    padding: 6px 10px 0;
+    height: 18px;
+    color: #27537a;
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;
+    text-decoration: none;
+}
+
+.tabs-nav .tabs-selected a {
+	background: #FFFFFF none repeat scroll 0%;
+    /* padding-top: 7px; */
+    color: #000;
+}
+.tabs-nav .tabs-selected a, .tabs-nav a:hover, .tabs-nav a:focus, .tabs-nav a:active {
+    background-position: 0 -50px;
+    outline: 0; /* @ Firefox, switch off dotted border */
+}
+.tabs-nav .tabs-disabled a:hover, .tabs-nav .tabs-disabled a:focus, .tabs-nav .tabs-disabled a:active {
+    background-position: 0 0;
+}
+.tabs-nav .tabs-selected a:link, .tabs-nav .tabs-selected a:visited,
+.tabs-nav .tabs-disabled a:link, .tabs-nav .tabs-disabled a:visited { /* @ Opera, use pseudo classes otherwise it confuses cursor... */
+    cursor: text;
+}
+.tabs-nav a:hover, .tabs-nav a:focus, .tabs-nav a:active { /* @ Opera, we need to be explicit again here now... */
+    cursor: pointer !important;
+}
+.tabs-nav .tabs-disabled {
+    opacity: .4;
+}
+.tabs-container {
+    border-top: 1px solid #CCCCCC;
+    padding: 0px 8px;
+    background: #fff; /* declare background color for container to avoid distorted fonts in IE while fading */
+}
+
+.tabs-container h2{
+	padding-top: 15px;
+}

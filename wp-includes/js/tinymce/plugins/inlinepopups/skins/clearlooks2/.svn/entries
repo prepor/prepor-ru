@@ -1,0 +1,44 @@
+8
+
+dir
+7498
+http://svn.automattic.com/wordpress/trunk/wp-includes/js/tinymce/plugins/inlinepopups/skins/clearlooks2
+http://svn.automattic.com/wordpress
+
+
+
+2008-03-22T08:23:18.281220Z
+7471
+ryan
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+1a063a9b-81f0-0310-95a4-ce76da25c4cd
+
+img
+dir
+
+window.css
+file
+
+
+
+
+2008-03-24T11:19:37.000000Z
+5a864e3e4f13dfaa3d1b4b7290cffe68
+2008-03-22T08:23:18.281220Z
+7471
+ryan
+has-props
+

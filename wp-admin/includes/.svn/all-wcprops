@@ -1,0 +1,167 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/wordpress/!svn/ver/7496/trunk/wp-admin/includes
+END
+misc.php
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/wordpress/!svn/ver/7441/trunk/wp-admin/includes/misc.php
+END
+class-ftp.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/wordpress/!svn/ver/7327/trunk/wp-admin/includes/class-ftp.php
+END
+plugin.php
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/wordpress/!svn/ver/7488/trunk/wp-admin/includes/plugin.php
+END
+class-wp-filesystem-ftpsockets.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/wordpress/!svn/ver/7443/trunk/wp-admin/includes/class-wp-filesystem-ftpsockets.php
+END
+schema.php
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/wordpress/!svn/ver/7165/trunk/wp-admin/includes/schema.php
+END
+theme.php
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/wordpress/!svn/ver/6530/trunk/wp-admin/includes/theme.php
+END
+comment.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/wordpress/!svn/ver/7391/trunk/wp-admin/includes/comment.php
+END
+class-pclzip.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/wordpress/!svn/ver/7314/trunk/wp-admin/includes/class-pclzip.php
+END
+bookmark.php
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/wordpress/!svn/ver/7193/trunk/wp-admin/includes/bookmark.php
+END
+class-ftp-pure.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/wordpress/!svn/ver/7257/trunk/wp-admin/includes/class-ftp-pure.php
+END
+class-ftp-sockets.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/wordpress/!svn/ver/7257/trunk/wp-admin/includes/class-ftp-sockets.php
+END
+widgets.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/wordpress/!svn/ver/7469/trunk/wp-admin/includes/widgets.php
+END
+import.php
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/wordpress/!svn/ver/6477/trunk/wp-admin/includes/import.php
+END
+template.php
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/wordpress/!svn/ver/7484/trunk/wp-admin/includes/template.php
+END
+user.php
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/wordpress/!svn/ver/7313/trunk/wp-admin/includes/user.php
+END
+taxonomy.php
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/wordpress/!svn/ver/7483/trunk/wp-admin/includes/taxonomy.php
+END
+media.php
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/wordpress/!svn/ver/7496/trunk/wp-admin/includes/media.php
+END
+file.php
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/wordpress/!svn/ver/7414/trunk/wp-admin/includes/file.php
+END
+export.php
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/wordpress/!svn/ver/7299/trunk/wp-admin/includes/export.php
+END
+image.php
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/wordpress/!svn/ver/7135/trunk/wp-admin/includes/image.php
+END
+update.php
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/wordpress/!svn/ver/7465/trunk/wp-admin/includes/update.php
+END
+class-wp-filesystem-ftpext.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/wordpress/!svn/ver/7443/trunk/wp-admin/includes/class-wp-filesystem-ftpext.php
+END
+class-wp-filesystem-direct.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/wordpress/!svn/ver/7415/trunk/wp-admin/includes/class-wp-filesystem-direct.php
+END
+post.php
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/wordpress/!svn/ver/7458/trunk/wp-admin/includes/post.php
+END
+dashboard.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/wordpress/!svn/ver/7487/trunk/wp-admin/includes/dashboard.php
+END
+upgrade.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/wordpress/!svn/ver/7148/trunk/wp-admin/includes/upgrade.php
+END
+admin.php
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/wordpress/!svn/ver/7165/trunk/wp-admin/includes/admin.php
+END

@@ -1,0 +1,150 @@
+/* styles for use by people extending the WordPress interface */
+
+
+body	{
+	margin: 0;
+	padding: 0;
+}
+
+body, td {
+	font: 13px "Lucida Grande", "Lucida Sans Unicode", Tahoma, Verdana, sans-serif;
+}
+
+form, label input { margin: 0; padding: 0; }
+
+img { border: 0; }
+
+label { cursor: pointer; }
+
+li, dd { margin-bottom: 6px; }
+
+p, li, dl, dd, dt { line-height: 140%; }
+
+textarea, input, select {
+	font: 13px Verdana, Arial, Helvetica, sans-serif;
+	margin: 1px;
+	padding: 3px;
+}
+
+.alignleft { float: left; }
+.alignright { float: right; }
+
+.textleft { text-align: left; }
+.textright { text-align: right; }
+
+.clear { clear: both; height: 2px; }
+
+.hidden { display: none; }
+
+.subsubsub {
+	list-style: none;
+	margin: 14px 0 8px 0;
+	padding: 0;
+	white-space: nowrap;
+	font-size: 12px;
+}
+
+.subsubsub a { line-height: 200%; padding: 3px; text-decoration: none; }
+
+.subsubsub a.current { font-weight: bold; background: none; border: none;}
+
+.subsubsub li { display: inline; margin: 0; padding: 0; }
+
+.widefat {
+	border-width: 1px;
+	border-style: solid;
+	border-collapse: collapse;
+	width: 100%;
+	clear: both;
+	margin: 0;
+}
+
+.widefat a {
+	text-decoration: none;
+}
+
+.widefat abbr {
+	white-space: nowrap;
+}
+
+.widefat td, .widefat th {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #ccc;
+	font-size: 11px;
+	padding: 7px 25px 6px 2px;
+	vertical-align: text-top;
+}
+
+.widefat th {
+	padding: 9px 25px 4px 2px;
+	text-align: left;
+	line-height: 1.3em;
+}
+
+.widefat th input {
+	margin: 0 3px;
+	padding: 0;
+}
+
+.widefat .check-column {
+	text-align: center;
+	width: 1.8em;
+	padding: 9px 2px 6px 6px;
+}
+
+.widefat tbody th.check-column {
+	padding-bottom: 20px;
+}
+
+.widefat .num {
+	text-align: center;
+	padding: 10px 16px 0;
+}
+
+.wrap, .updated, .error {
+	margin: 0;
+	margin-left: 15px;
+	margin-right: 15px;
+	padding: 0;
+	max-width: 980px;
+}
+
+.updated, .error {
+	border-width: 1px;
+	border-style: solid;
+	padding: 0 0.6em;
+	max-width: 950px;
+	margin-bottom: 1em;
+}
+
+.updated p, .error p {
+	margin: 0.6em 0;
+}
+
+.wrap .updated, .wrap .error {
+	margin: auto 0 0;
+}
+
+.updated a, .error a {
+	text-decoration: underline;
+}
+
+.updated a {
+	text-decoration: none;
+	padding-bottom: 2px;
+}
+
+.wrap h2 {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	clear: both;
+	font: 24px Georgia, "Times New Roman", Times, serif;
+	margin: 5px 0 0 -4px;
+	padding: 0;
+	padding-bottom: 7px;
+}
+
+#timestampdiv {
+	display: none;
+}
