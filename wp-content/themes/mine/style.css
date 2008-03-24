@@ -379,7 +379,7 @@ GENERIC
 html { font-size: 100%; font-family: helvetica, "microsoft sans serif", arial, sans-serif; }
 strong, th, thead td, h1, h2, h3, h4, h5, h6 { font-weight: bold; }
 cite, em, dfn { font-style: italic; }
-code, kbd, samp, pre, tt, var, input[type='text'], textarea { font-size: 92%; font-family: monaco, "Lucida Console", courier, mono-space; }
+kbd, samp, tt, var, input[type='text'], textarea { font-size: 92%; font-family: monaco, "Lucida Console", courier, mono-space; }
 del { text-decoration: line-through; color: #666; }
 ins, dfn { border-bottom: 1px solid #ccc; }
 small, sup, sub { font-size: 85%; }
@@ -457,7 +457,7 @@ CONTENT ONLY
 /* MARGINS & PADDINGS */
 
 .content blockquote *:first-child { margin: .8em 0; }
-.content hr, .content p, .content ul, .content ol, .content dl, .content pre, .content blockquote, .content address, .content table, .content form { margin-bottom: 1.6em; }
+.content hr, .content p, .content ul, .content ol, .content dl, .content blockquote, .content address, .content table, .content form { margin-bottom: 1.6em; }
 .content p+p { margin-top: -.8em; }
 /* NOTE: Calulate header margins: TOP: 1.6em/size, BOTTOM: 1.6em/size/2 */
 .content h1 { margin: 1em 0 .5em;  }
@@ -488,13 +488,13 @@ CONTENT ONLY
 .content a:visited { text-decoration: underline; color: #99c; }
 .content a:hover { text-decoration: underline; color: #c33; }
 .content a:active, .content a:focus { text-decoration: underline; color: #000; }
-.content code, .content pre { color: #c33; } /* very optional, but still useful. W3C uses about the same colors for codes */
+
 
 
 
 
 * {font-size: 1em;}
-code, kbd, samp, pre, tt, var, textarea, input, select, isindex { font: inherit; font-size: 1em; }
+kbd, samp, tt, var, textarea, input, select, isindex { font: inherit; font-size: 1em; }
 dfn, i, cite, var, address, em { font-style: normal; }
 th, b, strong, h1, h2, h3, h4, h5, h6 { font-weight: normal; }
 a, img, a img, iframe, form, fieldset, abbr, acronym, object, applet { border: none; }
@@ -513,12 +513,7 @@ font { color: inherit !important; font: inherit !important; color: inherit !impo
     body {
 	background-color: #666666;
 }
-  .title {
-	font-size: 5em;
-	color: #ffffff;
-	margin: 10px;
-	
-}
+
   .category {
 	font-size: 2em;
 	color: #DB4105;
