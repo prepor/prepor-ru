@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-		<table width="80px" border="0" align="center" cellpadding="0" cellspacing="5" bordercolor="#000000" bgcolor="#FFFFFF">
+		<table width="800px" border="0" align="center" cellpadding="0" cellspacing="5" bordercolor="#000000" bgcolor="#FFFFFF">
 		      <tr>
 		        <td>
 	<?php if (have_posts()) : ?>
