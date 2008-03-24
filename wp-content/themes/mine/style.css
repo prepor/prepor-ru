@@ -422,6 +422,7 @@ textarea:focus, input[type='text']:focus, input[type='password']:focus, select:f
 input, select { cursor: pointer; }
 input[type='text'] { cursor: text; }
 
+a { color: inherit; }
 
 
 
