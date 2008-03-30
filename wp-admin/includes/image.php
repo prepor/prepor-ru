@@ -124,7 +124,7 @@ function wp_generate_attachment_metadata( $attachment_id, $file ) {
  *
  */
 function wp_load_image( $file ) {
-	if ( ctype_digit( $file ) )
+	if ( is_numeric( $file ) )
 		$file = get_attached_file( $file );
 
 	if ( ! file_exists( $file ) )
