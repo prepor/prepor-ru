@@ -73,7 +73,7 @@ if ( !$withcomments && !is_single() ) {
 	          	<? $cat=get_cat_ID('photos'); ?>
 		          <p><a href="<?=get_category_link($cat)?>"><span class="style2">photos</span></a>  <a href="<?=get_category_feed_link( $cat, '')?>" title="RSS для этой категории"><img src="<?=get_template_directory_uri()?>/images/feed-icon-14x14.png" width="14" height="14" /></a></p>
 	          <p>Претендующие на художественность фотки. Типа таких:</p>
-	          <p><?=apply_filters('the_content',"[gallery=3]")?></p>
+	          <p><?=apply_filters('the_content',"[gallery=1]")?></p>
 	          </td>
 	      </tr>
 	      <tr>
