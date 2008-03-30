@@ -179,7 +179,7 @@ function get_attachment_link($id = false) {
 			$parentlink = _get_page_link( $object->post_parent ); // Ignores page_on_front
 		else
 			$parentlink = get_permalink( $object->post_parent );
-		if ( ctype_digit($object->post_name) )
+		if ( is_numeric($object->post_name) )
 			$name = 'attachment/' . $object->post_name; // <permalink>/<int>/ is paged so we use the explicit attachment marker
 		else
 			$name = $object->post_name;
