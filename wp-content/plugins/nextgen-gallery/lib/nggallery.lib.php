@@ -129,7 +129,7 @@ class nggImage{
 		return $this->href;
 	}
 	
-	function cached_singlepic_file($width, $height, $mode = "" ) {
+	function cached_singlepic_file($width = "", $height = "", $mode = "" ) {
 		// This function creates a cache for all singlepics to reduce the CPU load
 		$ngg_options = get_option('ngg_options');
 		
@@ -150,13 +150,11 @@ class nggImage{
 			if ( !wp_mkdir_p($cachefolder) )
 				return false;
 		
-		// get the filepath on the server
-		$filepath = WINABSPATH . "/" . $this->path ."/" . $this->filename;
-		$thumb = new ngg_Thumbnail($filepath, TRUE);
+		$thumb = new ngg_Thumbnail($this->absPath, TRUE);
 		// echo $thumb->errmsg;
 		
 		if (!$thumb->error) {	
-			$thumb->resize($width,$height);
+			$thumb->resize($width , $height);
 			
 			if ($mode == 'watermark') {
 				if ($ngg_options['wmType'] == 'image') {
@@ -823,8 +821,8 @@ class nggRewrite {
 		    $this->slug.'/post/([^/]+)/album-([0-9]+)/gallery-([0-9]+)/page-([0-9]+)/slideshow/?$' => 'index.php?name=$matches[1]&album=$matches[2]&gallery=$matches[3]&nggpage=$matches[4]&show=slide',
 		    $this->slug.'/post/([^/]+)/album-([0-9]+)/gallery-([0-9]+)/page-([0-9]+)/images/?$' => 'index.php?name=$matches[1]&album=$matches[2]&gallery=$matches[3]&nggpage=$matches[4]&show=gallery',
 		  );
-
-		$wp_rewrite->rules = $wp_rewrite->rules + $rewrite_rules;
+		  
+		$wp_rewrite->rules = array_merge($rewrite_rules, $wp_rewrite->rules);
 		
 	}
 	

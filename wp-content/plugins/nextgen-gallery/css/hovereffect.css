@@ -2,7 +2,7 @@
 CSS Name: Hovereffect Styles
 Description: Hover Stylesheet based on the idea of Hoverbox from http://host.sonspring.com/hoverbox/
 Author: Alex Rabe - Orginal by Nathan Smith
-Version: 0.50
+Version: 0.60
 
 This is a template stylesheet which doesn't support description below the thumbnails. It's a experimental version.
 
@@ -289,15 +289,17 @@ This is a template stylesheet which doesn't support description below the thumbn
 
 .ngg-left {
 	float: left;
+	padding-right:10px;
 }
 
 .ngg-right {
 	float: right;
+	padding-left:10px;
 }
 
-.ngg-center {
-  	margin-left: auto;
-    margin-right: auto;
+.ngg-center img {
+  	margin-left: auto !important;
+    margin-right: auto !important;
 }
 
 /* ----------- Sidebar widget -------------*/

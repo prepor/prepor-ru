@@ -1,6 +1,20 @@
 NextGEN Gallery
 by Alex Rabe & NextGEN DEV Team
 
+V0.92 - 30.03.2008
+- Changed : Higher priority for filter in WP2.5 final
+- Changed : Do not increase memory_limit with ini_set
+- Added : Read EXIF field ImageDescription
+
+V0.91 - 24.03.2008
+- Changed : Resample mode back to 3
+- Changed : Add DIV "ngg-singlepic-wrapper" for SingelPic (THX to Travel-Junkie)
+- Changed : Increase Tweakfactor for Memory Check
+- Bugfix : Use admin.css only on NextGEN pages (THX tp Oliver)
+- Bugfix : Updates widgets (V1.21) for ImageRotator 3.15
+- Bugfix : Change order of rewrite rules for WP 2.5
+- Bugfix : Include Dashboard CSS also for page "nextgen-gallery"
+
 V0.90 - 18.03.2008
 - NEW : Sort order for images
 - NEW : Updated style for Wp 2.5

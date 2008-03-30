@@ -3,7 +3,7 @@
 Plugin Name: NextGEN Gallery Widget
 Description: Adds a sidebar widget support to your NextGEN Gallery
 Author: NextGEN DEV-Team
-Version: 1.20
+Version: 1.21
 Author URI: http://alexrabe.boelinger.com/
 Plugin URI: http://alexrabe.boelinger.com/?page_id=80
 
@@ -43,22 +43,24 @@ function nggSlideshowWidget($galleryID,$irWidth,$irHeight) {
     $out .= "\n\t".'<script type="text/javascript" defer="defer">';
     $out .= "\n\t".'<!--';
 	$out .= "\n\t".'//<![CDATA[';
-	$out .= "\n\t\t".'var so = new SWFObject("'.NGGALLERY_URLPATH.'imagerotator.swf", "ngg_slideshow'.$galleryID.'", "'.$irWidth.'", "'.$irHeight.'", "7", "#'.$ngg_options['irBackcolor'].'");';
-	$out .= "\n\t\t".'so.addParam("wmode", "opaque");';
-	$out .= "\n\t\t".'so.addVariable("file", "'.NGGALLERY_URLPATH.'nggextractXML.php?gid='.$galleryID.'");';
-	if (!$ngg_options['irShuffle']) $out .= "\n\t\t".'so.addVariable("shuffle", "false");';
-//	if ($ngg_options[irLinkfromdisplay]) $out .= "\n\t\t".'so.addVariable("linkfromdisplay", "false");';
-//	if ($ngg_options[irShownavigation]) $out .= "\n\t\t".'so.addVariable("shownavigation", "true");';
-	if ($ngg_options['irShowicons']) $out .= "\n\t\t".'so.addVariable("showicons", "true");';
-	$out .= "\n\t\t".'so.addVariable("overstretch", "'.$ngg_options['irOverstretch'].'");';
-	$out .= "\n\t\t".'so.addVariable("backcolor", "0x'.$ngg_options['irBackcolor'].'");';
-	$out .= "\n\t\t".'so.addVariable("frontcolor", "0x'.$ngg_options['irFrontcolor'].'");';
-	$out .= "\n\t\t".'so.addVariable("lightcolor", "0x'.$ngg_options['irLightcolor'].'");';
-	$out .= "\n\t\t".'so.addVariable("rotatetime", "'.$ngg_options['irRotatetime'].'");';
-	$out .= "\n\t\t".'so.addVariable("transition", "'.$ngg_options['irTransition'].'");';
-	$out .= "\n\t\t".'so.addVariable("width", "'.$irWidth.'");';
-	$out .= "\n\t\t".'so.addVariable("height", "'.$irHeight.'");'; 
-	$out .= "\n\t\t".'so.write("ngg_widget_slideshow'.$galleryID.'");';
+	$out .= "\n\t\t".'var sbsl = new SWFObject("'.NGGALLERY_URLPATH.'imagerotator.swf", "ngg_slideshow'.$galleryID.'", "'.$irWidth.'", "'.$irHeight.'", "7", "#'.$ngg_options['irBackcolor'].'");';
+	$out .= "\n\t\t".'sbsl.addParam("wmode", "opaque");';
+	$out .= "\n\t\t".'sbsl.addVariable("file", "'.NGGALLERY_URLPATH.'nggextractXML.php?gid='.$galleryID.'");';
+	$out .= "\n\t\t".'sbsl.addVariable("linkfromdisplay", "false");';
+	$out .= "\n\t\t".'sbsl.addVariable("shownavigation", "false");';
+	// default value changed in 3.15 : linkfromdisplay, shownavigation, showicons
+	if (!$ngg_options['irShuffle']) $out .= "\n\t\t".'sbsl.addVariable("shuffle", "false");';
+	if (!$ngg_options['irShowicons']) $out .= "\n\t\t".'sbsl.addVariable("showicons", "false");';
+	if ($ngg_options['irShowicons']) $out .= "\n\t\t".'sbsl.addVariable("showicons", "true");';
+	$out .= "\n\t\t".'sbsl.addVariable("overstretch", "'.$ngg_options['irOverstretch'].'");';
+	$out .= "\n\t\t".'sbsl.addVariable("backcolor", "0x'.$ngg_options['irBackcolor'].'");';
+	$out .= "\n\t\t".'sbsl.addVariable("frontcolor", "0x'.$ngg_options['irFrontcolor'].'");';
+	$out .= "\n\t\t".'sbsl.addVariable("lightcolor", "0x'.$ngg_options['irLightcolor'].'");';
+	$out .= "\n\t\t".'sbsl.addVariable("rotatetime", "'.$ngg_options['irRotatetime'].'");';
+	$out .= "\n\t\t".'sbsl.addVariable("transition", "'.$ngg_options['irTransition'].'");';
+	$out .= "\n\t\t".'sbsl.addVariable("width", "'.$irWidth.'");';
+	$out .= "\n\t\t".'sbsl.addVariable("height", "'.$irHeight.'");'; 
+	$out .= "\n\t\t".'sbsl.write("ngg_widget_slideshow'.$galleryID.'");';
 	$out .= "\n\t".'//]]>';
 	$out .= "\n\t".'-->';
 	$out .= "\n\t".'</script>';

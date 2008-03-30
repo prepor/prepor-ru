@@ -4,7 +4,7 @@
 Plugin Name: All in One SEO Pack
 Plugin URI: http://wp.uberdose.com/2007/03/24/all-in-one-seo-pack/
 Description: Out-of-the-box SEO for your Wordpress blog.
-Version: 1.4.6.3
+Version: 1.4.6.5
 Author: uberdose
 Author URI: http://wp.uberdose.com/
 */
@@ -28,7 +28,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 class All_in_One_SEO_Pack {
 	
- 	var $version = "1.4.6.3";
+ 	var $version = "1.4.6.5";
  	
  	/** Max numbers of chars in auto-generated description */
  	var $maximum_description_length = 160;
@@ -65,7 +65,12 @@ class All_in_One_SEO_Pack {
  	/** Flag whether there should be logging. */
  	var $do_log;
  	
+ 	var $wp_version;
+ 	
 	function All_in_One_SEO_Pack() {
+		global $wp_version;
+		$this->wp_version = $wp_version;
+		
 		$this->log_file = dirname(__FILE__) . '/all_in_one_seo_pack.log';
 		if (get_option('aiosp_do_log')) {
 			$this->do_log = true;
@@ -162,8 +167,10 @@ class All_in_One_SEO_Pack {
 				$this->log("another plugin interfering?");
 				// if we get here there *could* be trouble with another plugin :(
 				$this->ob_start_detected = true;
-				foreach (ob_list_handlers() as $handler) {
-					$this->log("detected output handler $handler");
+				if (function_exists('ob_list_handlers')) {
+					foreach (ob_list_handlers() as $handler) {
+						$this->log("detected output handler $handler");
+					}
 				}
 			}
 		}
@@ -941,6 +948,12 @@ class All_in_One_SEO_Pack {
 		//  End -->
 		</script>
 
+		<?php if (substr($this->wp_version, 0, 3) == '2.5') { ?>
+		<div id="postaiosp" class="postbox closed">
+		<h3><a target="__blank" href="http://wp.uberdose.com/2007/03/24/all-in-one-seo-pack/"><?php _e('All in One SEO Pack', 'all_in_one_seo_pack') ?></a></h3>
+		<div class="inside">
+		<div id="postaiosp">
+		<?php } else { ?>
 		<div class="dbx-b-ox-wrapper">
 		<fieldset id="seodiv" class="dbx-box">
 		<div class="dbx-h-andle-wrapper">
@@ -948,6 +961,7 @@ class All_in_One_SEO_Pack {
 		</div>
 		<div class="dbx-c-ontent-wrapper">
 		<div class="dbx-content">
+		<?php } ?>
 		
 		<input value="aiosp_edit" type="hidden" name="aiosp_edit" />
 		<table style="margin-bottom:40px">
@@ -957,11 +971,11 @@ class All_in_One_SEO_Pack {
 		</tr>
 		<tr>
 		<th scope="row" style="text-align:right;"><?php _e('Title:', 'all_in_one_seo_pack') ?></th>
-		<td><input value="<?php echo $title ?>" type="text" name="aiosp_title" size="80"/></td>
+		<td><input value="<?php echo $title ?>" type="text" name="aiosp_title" size="62"/></td>
 		</tr>
 		<tr>
 		<th scope="row" style="text-align:right;"><?php _e('Description:', 'all_in_one_seo_pack') ?></th>
-		<td><textarea name="aiosp_description" rows="1" cols="78"
+		<td><textarea name="aiosp_description" rows="1" cols="60"
 		onKeyDown="countChars(document.post.aiosp_description,document.post.length1)"
 		onKeyUp="countChars(document.post.aiosp_description,document.post.length1)"><?php echo $description ?></textarea><br />
 		<input readonly type="text" name="length1" size="3" maxlength="3" value="<?php echo strlen($description);?>" />
@@ -970,7 +984,7 @@ class All_in_One_SEO_Pack {
 		</tr>
 		<tr>
 		<th scope="row" style="text-align:right;"><?php _e('Keywords (comma separated):', 'all_in_one_seo_pack') ?></th>
-		<th><input value="<?php echo $keywords ?>" type="text" name="aiosp_keywords" size="80"/></th>
+		<td><input value="<?php echo $keywords ?>" type="text" name="aiosp_keywords" size="62"/></td>
 		</tr>
 
 		<?php if ($this->is_admin()) { ?>
@@ -986,9 +1000,13 @@ class All_in_One_SEO_Pack {
 
 		</table>
 		
+		<?php if (substr($this->wp_version, 0, 3) == '2.5') { ?>
+		</div></div></div>
+		<?php } else { ?>
 		</div>
 		</fieldset>
 		</div>
+		<?php } ?>
 
 		<?php
 	}
@@ -997,8 +1015,7 @@ class All_in_One_SEO_Pack {
 		$file = __FILE__;
 		
 		// hack for 1.5
-		global $wp_version;
-		if (substr($wp_version, 0, 3) == '1.5') {
+		if (substr($this->wp_version, 0, 3) == '1.5') {
 			$file = 'all-in-one-seo-pack/all_in_one_seo_pack.php';
 		}
 		//add_management_page(__('All in One SEO Title', 'all_in_one_seo_pack'), __('All in One SEO', 'all_in_one_seo_pack'), 10, $file, array($this, 'management_panel'));
@@ -1103,10 +1120,12 @@ href="http://wp.uberdose.com/2007/10/02/translations-for-all-in-one-seo-pack/"><
 $canwrite = $this->is_upgrade_directory_writable();
 //$canwrite = false;
 ?>
-<form name="dofollow" action="" method="post">
+<form class="form-table" name="dofollow" action="" method="post">
+<p class="submit">
 <input type="submit" <?php if (!$canwrite) echo(' disabled="disabled" ');?> name="aiosp_upgrade" value="<?php _e('One Click Upgrade', 'all_in_one_seo_pack')?> &raquo;" />
 <strong><?php _e("(Remember: Backup early, backup often!)", 'all_in_one_seo_pack') ?></strong>
 </form>
+</p>
 <p></p>
 
 <?php if (!$canwrite) {
@@ -1126,7 +1145,7 @@ $canwrite = $this->is_upgrade_directory_writable();
 //-->
 </script>
 <form name="dofollow" action="" method="post">
-<table>
+<table class="form-table">
 
 <tr>
 <th scope="row" style="text-align:right; vertical-align:top;">

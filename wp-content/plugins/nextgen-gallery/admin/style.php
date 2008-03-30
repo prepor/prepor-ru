@@ -10,8 +10,8 @@ if (isset($_POST['css'])) {
 	$act_cssfile = $_POST['css']; 
 	if (isset($_POST['activate'])) {
 		// save option now
-		$ngg_options[activateCSS] = $_POST['activateCSS']; 
-		$ngg_options[CSSfile] = $act_cssfile;
+		$ngg_options['activateCSS'] = $_POST['activateCSS']; 
+		$ngg_options['CSSfile'] = $act_cssfile;
 		update_option('ngg_options', $ngg_options);
 		$messagetext = '<font color="green">'.__('Update successfully','nggallery').'</font>';
 	}
@@ -20,7 +20,7 @@ if (isset($_POST['css'])) {
 	if (isset($_POST['file']))
 		$act_cssfile = $_POST['file'];
 	else
-		$act_cssfile = $ngg_options[CSSfile];	
+		$act_cssfile = $ngg_options['CSSfile'];	
 }
 
 // set the path
@@ -62,7 +62,7 @@ if(!empty($messagetext)) { echo '<!-- Last Action --><div id="message" class="up
 <div class="wrap">
 	<form name="cssfiles" method="post">
 	<?php wp_nonce_field('ngg_style') ?>
-	<input type="checkbox" name="activateCSS" value="1" <?php checked('1', $ngg_options[activateCSS]); ?> /> 
+	<input type="checkbox" name="activateCSS" value="1" <?php checked('1', $ngg_options['activateCSS']); ?> /> 
 	<?php _e('Activate and use style sheet:','nggallery') ?>
 		<select name="css" id="css" onchange="this.form.submit();">
 		<?php

@@ -48,8 +48,6 @@ function nggallery_admin_manage_album()  {
 	// message windows
 	if(!empty($messagetext)) { echo '<!-- Last Action --><div id="message" class="updated fade"><p>'.$messagetext.'</p></div>'; }
 ?>
-<style type="text/css" media="all">@import "<?php echo NGGALLERY_URLPATH ?>css/nggallery.css";</style>
-<style type="text/css" media="all">@import "<?php echo NGGALLERY_URLPATH ?>admin/css/nggadmin.css";</style>
 <script type="text/javascript">
 
 

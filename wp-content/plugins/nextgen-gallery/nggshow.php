@@ -11,17 +11,15 @@ $ngg_options=get_option('ngg_options');
 
 //reference thumbnail class
 include_once('lib/thumbnail.inc.php');
+include_once('lib/nggallery.lib.php');
 
-$pictureID = (int) attribute_escape($_GET['pid']);
+$pictureID = (int) $_GET['pid'];
 $mode = attribute_escape($_GET['mode']);
 
-// get the path and filename to the image
-$galleryID = $wpdb->get_var("SELECT galleryid FROM $wpdb->nggpictures WHERE pid = '$pictureID' ");
-$filenname = $wpdb->get_var("SELECT filename FROM $wpdb->nggpictures WHERE pid = '$pictureID' ");
-$gallerypath = $wpdb->get_var("SELECT path FROM $wpdb->nggallery WHERE gid = '$galleryID' ");
-$filepath = WINABSPATH . "/" . $gallerypath ."/" . $filenname;
+// let's get the image data
+$picture  = new nggImage($pictureID);
 
-$thumb = new ngg_Thumbnail($filepath);
+$thumb = new ngg_Thumbnail($picture->absPath);
 if ( isset($_GET['height']) and isset($_GET['width']))
 	$thumb->resize($_GET['width'],$_GET['height']);
 if ($mode == 'watermark') {

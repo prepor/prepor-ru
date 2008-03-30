@@ -2,7 +2,7 @@
 CSS Name: Shadow Effect with Description text
 Description: NextGEN Default Style with a Shadow effect and description text below the thumbnail
 Author: Alex Rabe
-Version: 1.40
+Version: 1.42
    
 This is a template stylesheet that can be used with NextGEN Gallery. I tested the
 styles with a default theme Kubrick. Modify it when your theme struggle with it,
@@ -242,15 +242,17 @@ it's only a template design
 
 .ngg-left {
 	float: left;
+	padding-right:10px;
 }
 
 .ngg-right {
 	float: right;
+	padding-left:10px;
 }
 
-.ngg-center {
-  	margin-left: auto;
-    margin-right: auto;
+.ngg-center img {
+  	margin-left: auto !important;
+    margin-right: auto !important;
 }
 
 /* ----------- Sidebar widget -------------*/

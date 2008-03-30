@@ -180,14 +180,14 @@ function ngg_default_options() {
 	$ngg_options['thumbfix']			= true;							// Fix the dimension
 	$ngg_options['thumbcrop']			= false;						// Crop square thumbnail
 	$ngg_options['thumbquality']		= 100;  						// Thumb Quality
-	$ngg_options['thumbResampleMode']	= 5;  							// Resample speed value 1 - 5 
+	$ngg_options['thumbResampleMode']	= 3;  							// Resample speed value 1 - 5 
 		
 	// Image Settings
 	$ngg_options['imgResize']			= false;						// Activate resize (not used)
 	$ngg_options['imgWidth']			= 800;  						// Image Width
 	$ngg_options['imgHeight']			= 600;  						// Image height
 	$ngg_options['imgQuality']			= 85;							// Image Quality
-	$ngg_options['imgResampleMode']		= 5;  							// Resample speed value 1 - 5
+	$ngg_options['imgResampleMode']		= 3;  							// Resample speed value 1 - 5
 	$ngg_options['imgCacheSinglePic']	= false;						// cached the singlepic	
 	
 	// Gallery Settings

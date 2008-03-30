@@ -13,7 +13,7 @@ function ngg_header() {
 
 	// since WP2.5 redesign we need a different CSS
 	switch ($_GET['page']) {
-		case "nggallery" :
+		case NGGFOLDER :
 			echo '<link rel="stylesheet" href="'.NGGALLERY_URLPATH.'admin/css/nggadmin.wp25.css" type="text/css" media="screen" />'."\n";
 			wp_admin_css( 'css/dashboard' );
 		break;

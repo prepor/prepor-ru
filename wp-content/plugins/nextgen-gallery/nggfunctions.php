@@ -251,7 +251,7 @@ function nggShowGallery($galleryID) {
 		$out = nggCreateGallery($picturelist,$galleryID);
 	}
 	
-	$out = apply_filters('ngg_show_gallery_content', $out);
+	$out = apply_filters('ngg_show_gallery_content', $out, intval($galleryID));
 	return $out;
 }
 
@@ -392,7 +392,7 @@ function nggShowAlbum($albumID,$mode = "extend") {
 	$out .= '</div>'."\n";
 	$out .= '<div class="ngg-clear"></div>'."\n";
 	
-	$out = apply_filters('ngg_show_album_content', $out);
+	$out = apply_filters('ngg_show_album_content', $out, intval($albumID));
 	return $out;
 }
 
@@ -469,7 +469,7 @@ function nggShowImageBrowser($galleryID) {
 		$out = nggCreateImageBrowser($picturelist);
 	}
 	
-	$out = apply_filters('ngg_show_imagebrowser_content', $out);
+	$out = apply_filters('ngg_show_imagebrowser_content', $out, intval($galleryID));
 	return $out;
 	
 }
@@ -581,14 +581,15 @@ function nggSinglePicture($imageID,$width=250,$height=250,$mode="",$float="") {
 		$cache_url = $picture->cached_singlepic_file($width, $height, $mode );
 
 	// add fullsize picture as link
-	$out  = '<a href="'.$picture->imagePath.'" title="'.stripslashes($picture->description).'" '.$picture->get_thumbcode("singlepic".$imageID).' >';
+	$out  = '<div class="ngg-singlepic-wrapper'. $float .'"><a href="'.$picture->imagePath.'" title="'.stripslashes($picture->description).'" '.$picture->get_thumbcode("singlepic".$imageID).' >';
 	if (!$cache_url)
-		$out .= '<img class="ngg-singlepic'. $float .'" src="'.NGGALLERY_URLPATH.'nggshow.php?pid='.$imageID.'&amp;width='.$width.'&amp;height='.$height.'&amp;mode='.$mode.'" alt="'.stripslashes($picture->alttext).'" title="'.stripslashes($picture->alttext).'" />';
+		$out .= '<img class="ngg-singlepic" src="'.NGGALLERY_URLPATH.'nggshow.php?pid='.$imageID.'&amp;width='.$width.'&amp;height='.$height.'&amp;mode='.$mode.'" alt="'.stripslashes($picture->alttext).'" title="'.stripslashes($picture->alttext).'" />';
 	else
-		$out .= '<img class="ngg-singlepic'. $float .'" src="'.$cache_url.'" alt="'.stripslashes($picture->alttext).'" title="'.stripslashes($picture->alttext).'" />';
-	$out .= '</a>';
+		$out .= '<img class="ngg-singlepic" src="'.$cache_url.'" alt="'.stripslashes($picture->alttext).'" title="'.stripslashes($picture->alttext).'" />';
+	$out .= '</a></div>';
 	
-	$out = apply_filters('ngg_show_singlepic_content', $out);
+	$out = apply_filters('ngg_show_singlepic_content', $out, intval( $imageID ) );
+	
 	return $out;
 }
 
@@ -626,7 +627,7 @@ function nggShowGalleryTags($taglist) {
 		$out = nggCreateGallery($picturelist,false);
 	}
 	
-	$out = apply_filters('ngg_show_gallery_tags_content', $out);
+	$out = apply_filters('ngg_show_gallery_tags_content', $out, $taglist);
 	return $out;
 }
 
@@ -671,7 +672,7 @@ function nggShowRelatedGallery($taglist, $maxImages = 0) {
 
 	$out .= '</div>'."\n";
 
-	$out = apply_filters('ngg_show_related_gallery_content', $out);
+	$out = apply_filters('ngg_show_related_gallery_content', $out, $taglist);
 	return $out;
 }
 
@@ -731,7 +732,7 @@ function nggShowAlbumTags($taglist) {
 	$out .= '</div>'."\n";
 	$out .= '<div class="ngg-clear"></div>'."\n";
 
-	$out = apply_filters('ngg_show_album_tags_content', $out);
+	$out = apply_filters('ngg_show_album_tags_content', $out, $taglist);
 	
 	return $out;
 }

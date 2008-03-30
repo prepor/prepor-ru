@@ -95,11 +95,13 @@ class nggMeta{
 				$meta['camera'] = $exif['Model'];
 			if (!empty($exif['Make']))
 				$meta['make'] = $exif['Make'];
+			if (!empty($exif['ImageDescription']))
+				$meta['title'] = utf8_encode($exif['ImageDescription']);	
 	
 			// this is done by Windows
 			$exif = $this->exif_data['WINXP'];
 
-			if (!empty($exif['Title']))
+			if (!empty($exif['Title']) && empty($meta['title']))
 				$meta['title'] = utf8_encode($exif['Title']);
 			if (!empty($exif['Author']))
 				$meta['author'] = utf8_encode($exif['Author']);

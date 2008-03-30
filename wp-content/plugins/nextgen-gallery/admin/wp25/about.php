@@ -95,7 +95,9 @@ function ngg_list_contributors()	{
 	"TheDonSansone (Forums contributor)" => "http://abseiling.200blogs.co.uk/",
 	"Komyshov (Russian Translation)" => "http://kf-web.ru/",
 	"aleX Zhang (Chinese Translation)" => "http://zhangfei.info/",
-	"TheSoloist (Chinese Translation)" => "http://www.soloist-ic.cn/"
+	"TheSoloist (Chinese Translation)" => "http://www.soloist-ic.cn/",
+	"Nica Luigi Cristian (Romanian Translation)" => "http://www.cristiannica.com/",
+	"Zdenek Hatas (Czech Translation)" => ""
 	);
 	
 	ksort($contributors);
@@ -184,7 +186,10 @@ function ngg_list_support()	{
 	"Mark Campbell" => "http://www.layersofcolor.com",
 	"Aaron Snyder" => "http://www.aaronsnyder.net",
 	"Patrick Pirker" => "",
-	"Christoph Wander" => ""	
+	"Christoph Wander" => "",
+	"Monterey Bay Singles LLC" => "",
+	"Elvina Flower" => "",
+	"Colossal Pups" => ""	
 	);
 
 	

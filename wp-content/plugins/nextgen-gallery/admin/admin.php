@@ -11,12 +11,22 @@ function ngg_header() {
 	echo "\n".'<meta name="NextGEN" content="'.NGGVERSION.'" />';
 	echo "\n".'<meta http-equiv="pragma" content="no-cache" />'."\n";
 
-	// since WP2.5 redesign we need a different CSS
-	if ($wp_version < "2.4")
-		echo '<link rel="stylesheet" href="'.NGGALLERY_URLPATH.'admin/css/nggadmin.wp23.css" type="text/css" media="screen" />'."\n"; 
-	else {
-		echo '<link rel="stylesheet" href="'.NGGALLERY_URLPATH.'admin/css/nggadmin.wp25.css" type="text/css" media="screen" />'."\n";
-		wp_admin_css( 'css/dashboard' );
+	// add CSS for NextGEN pages
+	switch ($_GET['page']) {
+		case NGGFOLDER :
+			echo '<link rel="stylesheet" href="'.NGGALLERY_URLPATH.'admin/css/nggadmin.wp23.css" type="text/css" media="screen" />'."\n";
+		break;
+		case "nggallery-add-gallery" :
+		case "nggallery-options" :
+			echo '<link rel="stylesheet" href="'.NGGALLERY_URLPATH.'admin/css/nggadmin.wp23.css" type="text/css" media="screen" />'."\n";
+			echo '<link rel="stylesheet" href="'.NGGALLERY_URLPATH.'admin/css/jquery.tabs.css" type="text/css" media="print, projection, screen" />'."\n";
+		break;
+		case "nggallery-manage-gallery" :
+			echo '<link rel="stylesheet" href="'.NGGALLERY_URLPATH.'thickbox/thickbox.css" type="text/css" media="print, projection, screen" />'."\n";
+		case "nggallery-roles" :
+		case "nggallery-manage-album" :
+			echo '<link rel="stylesheet" href="'.NGGALLERY_URLPATH.'admin/css/nggadmin.wp23.css" type="text/css" media="screen" />'."\n";			
+		break;
 	}
 }
 
@@ -55,6 +65,7 @@ function ngg_add_admin_js() {
 	if ( ($_GET['tab'] == 'ngg_gallery') && ($_GET['style'] != 'inline') )
 		 wp_enqueue_script('thickbox', NGGALLERY_URLPATH .'thickbox/thickbox-pack.js', array('jquery'), '3.1.2');
 }
+
 	
 // add to menu
 add_action('admin_menu', 'add_nextgen_gallery_menu');
@@ -130,10 +141,7 @@ add_action('admin_menu', 'add_nextgen_gallery_menu');
 				break;
 			case "nggallery" :
 			default :
-				if ($wp_version < "2.4")
-					include_once (dirname (__FILE__). '/overview.php'); 	// nggallery_admin_overview
-				else
-					include_once (dirname (__FILE__). '/wp25/overview.php'); 	// nggallery_admin_overview	
+				include_once (dirname (__FILE__). '/overview.php'); 	// nggallery_admin_overview
 				nggallery_admin_overview();
 				break;
 		}

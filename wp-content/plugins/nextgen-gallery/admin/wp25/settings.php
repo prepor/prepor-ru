@@ -30,7 +30,7 @@ if(preg_match('#' . basename(__FILE__) . '#', $_SERVER['PHP_SELF'])) { die('You 
 			$nggRewrite->flush();
 		// Save options
 		update_option('ngg_options', $ngg_options);
-	 	$messagetext = '<font color="green">'.__('Update successfully','nggallery').'</font>';
+	 	nggallery::show_message(__('Update Successfully','nggallery'));
 	}		
 	
 	if ( isset($_POST['clearcache']) ) {
@@ -46,8 +46,8 @@ if(preg_match('#' . basename(__FILE__) . '#', $_SERVER['PHP_SELF'])) { die('You 
 	        	}
 	      		closedir($handle);
 			}
-		
-		$messagetext = '<font color="green">'.__('Cache cleared','nggallery').'</font>';
+
+		nggallery::show_message(__('Cache cleared','nggallery'));
 	}
 	// message windows
 	if(!empty($messagetext)) { echo '<!-- Last Action --><div id="message" class="updated fade"><p>'.$messagetext.'</p></div>'; }
