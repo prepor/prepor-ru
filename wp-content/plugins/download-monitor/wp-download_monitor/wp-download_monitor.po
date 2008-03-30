@@ -1,0 +1,678 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wp-download_monitor\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-03-25 17:16-0000\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Michael Jolley <jolley.small@googlemail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: C:\\Users\\Mike\\Desktop\\Plugin Dev\\Download Monitor\\Dev\\dowload-monitor\\trunk\\wp-download_monitor\n"
+
+#: C:\Users\Mike\Desktop\Plugin
+#: Dev\Download
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:55
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:175
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:797
+msgid "Downloads"
+msgstr ""
+
+#: C:\Users\Mike\Desktop\Plugin
+#: Dev\Download
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:117
+msgid "Tables created successfully"
+msgstr ""
+
+#: C:\Users\Mike\Desktop\Plugin
+#: Dev\Download
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:250
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:258
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:278
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:289
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:297
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:467
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:523
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:666
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:815
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:1096
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:1099
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:1102
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:1145
+msgid "Version"
+msgstr ""
+
+#: C:\Users\Mike\Desktop\Plugin
+#: Dev\Download
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:250
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:258
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:289
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:297
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:1096
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:1099
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:1102
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:1145
+msgid "downloaded"
+msgstr ""
+
+#: C:\Users\Mike\Desktop\Plugin
+#: Dev\Download
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:250
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:251
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:258
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:259
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:279
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:281
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:289
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:290
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:297
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:298
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:1096
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:1099
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:1102
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:1145
+msgid "times"
+msgstr ""
+
+#: C:\Users\Mike\Desktop\Plugin
+#: Dev\Download
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:251
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:259
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:290
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:298
+msgid "Downloaded"
+msgstr ""
+
+#: C:\Users\Mike\Desktop\Plugin
+#: Dev\Download
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:278
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:280
+msgid "Download"
+msgstr ""
+
+#: C:\Users\Mike\Desktop\Plugin
+#: Dev\Download
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:279
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:281
+msgid "Downloaded a total of"
+msgstr ""
+
+#: C:\Users\Mike\Desktop\Plugin
+#: Dev\Download
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:372
+msgid "<div class=\"error\">Required field: <strong>Title</strong> omitted</div>"
+msgstr ""
+
+#: C:\Users\Mike\Desktop\Plugin
+#: Dev\Download
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:374
+msgid "<div class=\"error\">Invalid <strong>hits</strong> entered</div>"
+msgstr ""
+
+#: C:\Users\Mike\Desktop\Plugin
+#: Dev\Download
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:410
+msgid "<div class=\"error\">No file selected</div>"
+msgstr ""
+
+#: C:\Users\Mike\Desktop\Plugin
+#: Dev\Download
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:411
+msgid "<div class=\"error\">Error</div>"
+msgstr ""
+
+#: C:\Users\Mike\Desktop\Plugin
+#: Dev\Download
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:435
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:436
+msgid "Download added Successfully"
+msgstr ""
+
+#: C:\Users\Mike\Desktop\Plugin
+#: Dev\Download
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:441
+msgid "<div class=\"error\">Error saving to database</div>"
+msgstr ""
+
+#: C:\Users\Mike\Desktop\Plugin
+#: Dev\Download
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:456
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:512
+msgid "Add Download"
+msgstr ""
+
+#: C:\Users\Mike\Desktop\Plugin
+#: Dev\Download
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:461
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:517
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:660
+msgid "Title (required)"
+msgstr ""
+
+#: C:\Users\Mike\Desktop\Plugin
+#: Dev\Download
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:473
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:529
+msgid "Starting hits"
+msgstr ""
+
+#: C:\Users\Mike\Desktop\Plugin
+#: Dev\Download
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:479
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:694
+msgid "Select a file..."
+msgstr ""
+
+#: C:\Users\Mike\Desktop\Plugin
+#: Dev\Download
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:482
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:697
+msgid "Max. filesize = "
+msgstr ""
+
+#: C:\Users\Mike\Desktop\Plugin
+#: Dev\Download
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:482
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:697
+msgid "bytes"
+msgstr ""
+
+#: C:\Users\Mike\Desktop\Plugin
+#: Dev\Download
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:486
+msgid "Replace File?"
+msgstr ""
+
+#: C:\Users\Mike\Desktop\Plugin
+#: Dev\Download
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:488
+msgid ""
+"<p>Replacing the file will <strong>delete all current stats</strong> \n"
+"                                            for the currently uploaded file. If you wish to keep existing stats, go to the\n"
+"                                            files Edit page instead and re-upload there.</p>"
+msgstr ""
+
+#: C:\Users\Mike\Desktop\Plugin
+#: Dev\Download
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:495
+msgid "Upload &amp; save"
+msgstr ""
+
+#: C:\Users\Mike\Desktop\Plugin
+#: Dev\Download
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:535
+msgid "Url"
+msgstr ""
+
+#: C:\Users\Mike\Desktop\Plugin
+#: Dev\Download
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:541
+msgid "Save"
+msgstr ""
+
+#: C:\Users\Mike\Desktop\Plugin
+#: Dev\Download
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:554
+msgid "<p>Invalid Add method, <a href=\"?page=Downloads\">go back</a>.</p>"
+msgstr ""
+
+#: C:\Users\Mike\Desktop\Plugin
+#: Dev\Download
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:560
+msgid "Sure?"
+msgstr ""
+
+#: C:\Users\Mike\Desktop\Plugin
+#: Dev\Download
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:561
+msgid "Are you sure you want to delete"
+msgstr ""
+
+#: C:\Users\Mike\Desktop\Plugin
+#: Dev\Download
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:561
+msgid "? (If originally uploaded by this plugin, this will also remove the file from the server)"
+msgstr ""
+
+#: C:\Users\Mike\Desktop\Plugin
+#: Dev\Download
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:561
+msgid "[yes]"
+msgstr ""
+
+#: C:\Users\Mike\Desktop\Plugin
+#: Dev\Download
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:561
+msgid "[no]"
+msgstr ""
+
+#: C:\Users\Mike\Desktop\Plugin
+#: Dev\Download
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:569
+msgid "Required field: <strong>Title</strong> omitted"
+msgstr ""
+
+#: C:\Users\Mike\Desktop\Plugin
+#: Dev\Download
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:570
+msgid "Required field: <strong>File URL</strong> omitted"
+msgstr ""
+
+#: C:\Users\Mike\Desktop\Plugin
+#: Dev\Download
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:572
+msgid "Invalid <strong>hits</strong> entered"
+msgstr ""
+
+#: C:\Users\Mike\Desktop\Plugin
+#: Dev\Download
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:618
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:630
+msgid "Download edited Successfully"
+msgstr ""
+
+#: C:\Users\Mike\Desktop\Plugin
+#: Dev\Download
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:655
+msgid "Edit Download Information"
+msgstr ""
+
+#: C:\Users\Mike\Desktop\Plugin
+#: Dev\Download
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:672
+msgid "Change hit count"
+msgstr ""
+
+#: C:\Users\Mike\Desktop\Plugin
+#: Dev\Download
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:678
+msgid "File URL (required)"
+msgstr ""
+
+#: C:\Users\Mike\Desktop\Plugin
+#: Dev\Download
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:681
+msgid "Note: changes to the file url will only work if not uploading a new file below."
+msgstr ""
+
+#: C:\Users\Mike\Desktop\Plugin
+#: Dev\Download
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:686
+msgid "Upload a new file"
+msgstr ""
+
+#: C:\Users\Mike\Desktop\Plugin
+#: Dev\Download
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:689
+msgid ""
+"<p>Here you can upload/re-upload the file from your computer. This will Overwrite any existing files \n"
+"\t\t\t\t\t\t\t\t\t\twith the same name, but will keep stats in-tact.</p>"
+msgstr ""
+
+#: C:\Users\Mike\Desktop\Plugin
+#: Dev\Download
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:711
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:921
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:945
+msgid "Save Changes"
+msgstr ""
+
+#: C:\Users\Mike\Desktop\Plugin
+#: Dev\Download
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:736
+msgid "Download deleted Successfully"
+msgstr ""
+
+#: C:\Users\Mike\Desktop\Plugin
+#: Dev\Download
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:754
+msgid ""
+"<p>Download URL updated - You need to <strong>re-save your permalinks settings</strong> (Options -> Permalinks) for \n"
+"\t\t\t\t\t\tthe changes to occur in your blog.</p>\n"
+"\t\t\t\t\t\t<p>If your .htaccess file cannot be written to by WordPress, add the following to your \n"
+"\t\t\t\t\t.htaccess file above the \"# BEGIN WordPress\" line:</p>\n"
+"\t\t\t\t\t\t<p>Options +FollowSymLinks<br/>\n"
+"\t\t\t\t\t\tRewriteEngine on<br/>\n"
+"\t\t\t\t\t\tRewriteRule ^download/(.*) wp-content/plugins/wp-download_monitor/download.php?id=$1 [L]</p>\n"
+"\t\t\t\t\t\t<p>replacing \"download/\" with your custom url.</p>"
+msgstr ""
+
+#: C:\Users\Mike\Desktop\Plugin
+#: Dev\Download
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:765
+msgid ""
+"<p>Download URL updated - You need to <strong>re-save your permalinks settings</strong> (Options -> Permalinks) for \n"
+"\t\t\t\t\t\tthe changes to occur in your blog.</p>\n"
+"\t\t\t\t\t\t<p>If your .htaccess file cannot be written to by WordPress, remove the following from your \n"
+"\t\t\t\t\t.htaccess file if it exists above the \"# BEGIN WordPress\" line:</p>\n"
+"\t\t\t\t\t\t<p>Options +FollowSymLinks<br/>\n"
+"\t\t\t\t\t\tRewriteEngine on<br/>\n"
+"\t\t\t\t\t\tRewriteRule ^download/(.*) wp-content/plugins/wp-download_monitor/download.php?id=$1 [L]</p>\n"
+"\t\t\t\t\t\t<p>replacing \"download/\" with your previous custom url.</p>"
+msgstr ""
+
+#: C:\Users\Mike\Desktop\Plugin
+#: Dev\Download
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:781
+msgid "<p>Allowed extensions updated</p>"
+msgstr ""
+
+#: C:\Users\Mike\Desktop\Plugin
+#: Dev\Download
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:802
+msgid "Add New Download"
+msgstr ""
+
+#: C:\Users\Mike\Desktop\Plugin
+#: Dev\Download
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:803
+msgid "Add Existing Download"
+msgstr ""
+
+#: C:\Users\Mike\Desktop\Plugin
+#: Dev\Download
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:812
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:939
+msgid "ID"
+msgstr ""
+
+#: C:\Users\Mike\Desktop\Plugin
+#: Dev\Download
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:813
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:940
+msgid "Title"
+msgstr ""
+
+#: C:\Users\Mike\Desktop\Plugin
+#: Dev\Download
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:814
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:1374
+msgid "File"
+msgstr ""
+
+#: C:\Users\Mike\Desktop\Plugin
+#: Dev\Download
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:816
+msgid "Posted on"
+msgstr ""
+
+#: C:\Users\Mike\Desktop\Plugin
+#: Dev\Download
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:817
+msgid "Posted by"
+msgstr ""
+
+#: C:\Users\Mike\Desktop\Plugin
+#: Dev\Download
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:818
+msgid "Hits"
+msgstr ""
+
+#: C:\Users\Mike\Desktop\Plugin
+#: Dev\Download
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:819
+msgid "Action"
+msgstr ""
+
+#: C:\Users\Mike\Desktop\Plugin
+#: Dev\Download
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:872
+msgid "No downloads added yet."
+msgstr ""
+
+#: C:\Users\Mike\Desktop\Plugin
+#: Dev\Download
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:885
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:886
+msgid "Previous"
+msgstr ""
+
+#: C:\Users\Mike\Desktop\Plugin
+#: Dev\Download
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:899
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:900
+msgid "Next"
+msgstr ""
+
+#: C:\Users\Mike\Desktop\Plugin
+#: Dev\Download
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:910
+msgid "Allowed extensions"
+msgstr ""
+
+#: C:\Users\Mike\Desktop\Plugin
+#: Dev\Download
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:912
+msgid "<p>You can set the allowed uploaded file extensions here by entering a list of extensions separated by commas, e.g. <code>.zip,.rar</code></p>"
+msgstr ""
+
+#: C:\Users\Mike\Desktop\Plugin
+#: Dev\Download
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:917
+msgid "Extensions"
+msgstr ""
+
+#: C:\Users\Mike\Desktop\Plugin
+#: Dev\Download
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:926
+msgid "Custom Download URL"
+msgstr ""
+
+#: C:\Users\Mike\Desktop\Plugin
+#: Dev\Download
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:928
+msgid ""
+"<p>Set the url of the downloads, e.g. <code>download/</code>. In this example a download link would look like this: \n"
+"                        <code>http://yoursite.com/download/2</code>.</p>\n"
+"                        <p>Leave this option blank to use the default download path (<code>wp-content/plugins/wp-download_monitor/download.php?id=</code>)</p>\n"
+"                        <p>You can also choose how to link to the download in it's url, e.g. selecting \"filename\" would make the link appear as <code>http://yoursite.com/download/filename.zip</code>.</p>"
+msgstr ""
+
+#: C:\Users\Mike\Desktop\Plugin
+#: Dev\Download
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:936
+msgid "Custom URL"
+msgstr ""
+
+#: C:\Users\Mike\Desktop\Plugin
+#: Dev\Download
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:941
+msgid "Filename"
+msgstr ""
+
+#: C:\Users\Mike\Desktop\Plugin
+#: Dev\Download
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:950
+msgid "Instructions"
+msgstr ""
+
+#: C:\Users\Mike\Desktop\Plugin
+#: Dev\Download
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:952
+msgid "Adding a download"
+msgstr ""
+
+#: C:\Users\Mike\Desktop\Plugin
+#: Dev\Download
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:953
+msgid ""
+"<p>Add a download by clicking the 'Add new Download' or 'Add Existing Download' button. You will then be shown the 'Add Download' form. On this form:</p>\n"
+"                <ol>\n"
+"                    <li>If using the <strong>'add new download'</strong> form, choose to upload your file from your hard disk by using the 'Select a file' input</br>\n"
+"                    or if using the <strong>'add existing download'</strong> form enter the url of an already existing file in the 'URL' input (e.g <code>http://www.blue-anvil.com/download.zip</code>).</li>\n"
+"                    <li>Add a <strong>Title</strong> for your download, and optionally a <strong>version</strong>. This name will be used when displaying the download link.</li>\n"
+"                </ol>"
+msgstr ""
+
+#: C:\Users\Mike\Desktop\Plugin
+#: Dev\Download
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:960
+msgid "Displaying a download link"
+msgstr ""
+
+#: C:\Users\Mike\Desktop\Plugin
+#: Dev\Download
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:961
+msgid ""
+"<p>This plugin has special tags for use in Wordpress posts to display download links. If using the rich text editor you must enter these\n"
+"                manually, however, if using the normal plain editor there is a dropdown menu to add them quicker. Replace 'id' with the downloads id.</p>\n"
+"                <ol>\t\t\t\n"
+"                    <li><strong>Link/hits</strong> - <code>[download#id]</code> <strong>Output example:</strong> <code><a href=\"download.php?id=1\" title=\"Version 1 downloaded 10 times\">Download title (10)</a></code></li>\n"
+"                    <li><strong>Link w/o hits</strong> - <code>[download#id#nohits]</code> <strong>Output example:</strong> <code><a href=\"download.php?id=1\" title=\"Version 1 downloaded 10 times\">Download title</a></code></li>\n"
+"                    <li><strong>URL only</strong> - <code>[download#id#url]</code> <strong>Output example:</strong> <code>download.php?id=1</code></li>\n"
+"                    <li><strong>Hits only</strong> - <code>[download#id#hits]</code> <strong>Output example:</strong> <code>10</code></li>\n"
+"                    <li><strong>Image with download link and hits</strong> - <code>[download#id#image]</code> <strong>Output example:</strong><br />\n"
+"                    <a style=\"display:block;text-align:center;margin:0.5em;\" class=\"dlimg\" href=\"#\" title=\"Download the File\"><img src=\"../wp-content/plugins/wp-download_monitor/img/download.gif\" alt=\"Download the File\" /></a>\n"
+"                    <p style=\"display:block;text-align:center;margin-bottom:12px;\" class=\"dlstat\">Downloaded a total of 10 times</p>\n"
+"                    To help style the text/image from this output, the image is wrapped in an anchor with class <code>dlimg</code>, and the stats below <code>dlstat</code>.\n"
+"                    </li>\n"
+"\t\t\t\t\t<li><strong>Link/hits/filesize</strong> - <code>[download#id#size]</code> <strong>Output example:</strong> <code><a href=\"download.php?id=1\" title=\"Version 1 downloaded 10 times\">Download title (10) - 2MB</a></code></li>\n"
+"\t\t\t\t\t<li><strong>Link/filesize</strong> - <code>[download#id#size#nohits]</code> <strong>Output example:</strong> <code><a href=\"download.php?id=1\" title=\"Version 1 downloaded 10 times\">Download title (2MB)</a></code></li>\n"
+"                </ol>"
+msgstr ""
+
+#: C:\Users\Mike\Desktop\Plugin
+#: Dev\Download
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:977
+msgid "Additional template tags"
+msgstr ""
+
+#: C:\Users\Mike\Desktop\Plugin
+#: Dev\Download
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:978
+msgid ""
+"<p>There are a few other template tags to use in your wordpress templates. Replace '$no' with the amount of downloads to show.</p>\n"
+"                <ol>\n"
+"                    <li><strong>Most downloaded</strong> - <code>&lt;?php wp_dlm_show_downloads(1,$no); ?&gt;</code></li>\n"
+"                    <li><strong>Most recent</strong> - <code>&lt;?php wp_dlm_show_downloads(2,$no); ?&gt;</code></li>\n"
+"                    <li><strong>Random</strong> - <code>&lt;?php wp_dlm_show_downloads(3,$no); ?&gt;</code></li>\n"
+"                </ol>\t\t"
+msgstr ""
+
+#: C:\Users\Mike\Desktop\Plugin
+#: Dev\Download
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:984
+msgid "Show all downloads"
+msgstr ""
+
+#: C:\Users\Mike\Desktop\Plugin
+#: Dev\Download
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:985
+msgid "<p>Simply add the tag <code>[#show_downloads]</code> to a page.</p>"
+msgstr ""
+
+#: C:\Users\Mike\Desktop\Plugin
+#: Dev\Download
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:990
+msgid "About this plugin"
+msgstr ""
+
+#: C:\Users\Mike\Desktop\Plugin
+#: Dev\Download
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:992
+msgid ""
+"<p>The Wordpress Download monitor plugin was created by <a href=\"http://blue-anvil.com/\">Mike Jolley</a>. The development\n"
+"                of this plugin took a lot of time and effort, therefore donations are very welcome, and encouraged \n"
+"                (I have living costs you know) :)</p>"
+msgstr ""
+
+#: C:\Users\Mike\Desktop\Plugin
+#: Dev\Download
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:1145
+msgid "Added"
+msgstr ""
+
+#: C:\Users\Mike\Desktop\Plugin
+#: Dev\Download
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:1374
+msgid "successfully uploaded!"
+msgstr ""
+
+#: C:\Users\Mike\Desktop\Plugin
+#: Dev\Download
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:1375
+msgid "The uploaded file exceeds the max. upload filesize directive in the server configuration."
+msgstr ""
+
+#: C:\Users\Mike\Desktop\Plugin
+#: Dev\Download
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:1376
+msgid "The uploaded file exceeds the MAX_FILE_SIZE directive that was specified in the html form."
+msgstr ""
+
+#: C:\Users\Mike\Desktop\Plugin
+#: Dev\Download
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:1377
+msgid "The uploaded file was only partially uploaded"
+msgstr ""
+
+#: C:\Users\Mike\Desktop\Plugin
+#: Dev\Download
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:1378
+msgid "No file was uploaded"
+msgstr ""
+
+#: C:\Users\Mike\Desktop\Plugin
+#: Dev\Download
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:1380
+msgid "Please select a file for upload."
+msgstr ""
+
+#: C:\Users\Mike\Desktop\Plugin
+#: Dev\Download
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:1381
+msgid "Only files with the following extensions are allowed:"
+msgstr ""
+
+#: C:\Users\Mike\Desktop\Plugin
+#: Dev\Download
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:1382
+msgid "Sorry, the filename contains invalid characters. Use only alphanumerical chars and separate parts of the name (if needed) with an underscore. <br>A valid filename ends with one dot followed by the extension."
+msgstr ""
+
+#: C:\Users\Mike\Desktop\Plugin
+#: Dev\Download
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:1383
+msgid "The filename exceeds the maximum length of "
+msgstr ""
+
+#: C:\Users\Mike\Desktop\Plugin
+#: Dev\Download
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:1383
+msgid "characters."
+msgstr ""
+
+#: C:\Users\Mike\Desktop\Plugin
+#: Dev\Download
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:1384
+msgid "Sorry, the upload directory doesn't exist!"
+msgstr ""
+
+#: C:\Users\Mike\Desktop\Plugin
+#: Dev\Download
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:1385
+msgid "Uploading"
+msgstr ""
+
+#: C:\Users\Mike\Desktop\Plugin
+#: Dev\Download
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:1385
+msgid "Sorry, a file with this name already exitst."
+msgstr ""
+
+#: C:\Users\Mike\Desktop\Plugin
+#: Dev\Download
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:1386
+msgid "The uploaded file is renamed to"
+msgstr ""
+
+#: C:\Users\Mike\Desktop\Plugin
+#: Dev\Download
+#: Monitor\Dev\dowload-monitor\trunk\wp-download_monitor/wp-download_monitor.php:1387
+#, php-format
+msgid "The file %s does not exist."
+msgstr ""
+
